@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Build a Survey Form using HTML and CSS
+	</title>
+	<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+	<h1>Customer Survey Form</h1>
+	<form id="form" onsubmit="takevalue()">
+		<div class="column">
+			<div class="form-control">
+			  <label>First Name</label>
+			  <input type="fname" id="fname" placeholder="Enter First Name" required/>
+			</div>
+			<div class="form-control" style="margin-left: 10%;">
+				<label>Last Name</label>
+				<input type="lname" id="lname" placeholder="Enter Last Name" required/>
+			</div>
+		</div>
+		<div class="column">
+			<div class="form-control">
+				<label>Mobile Number</label>
+				<input type="phone" id="phone" placeholder="Enter mobile number" required />
+			  </div>
+			<div class="form-control" style="margin-left: 10%;">
+			  <label>Birth Date</label>
+			  <input style="width: 124%;" type="date" id="dob" placeholder="Enter birth date" required />
+			</div>
+		</div>
+		<div class="column">
+			<div class="form-control">
+			  <label>Email</label>
+			  <input type="email" id="email" placeholder="Enter Email" required />
+			</div>
+			<div class="form-control" style="margin-left: 10%;">
+				<label>Profession</label>
+				<input type="Profession" id="pro" placeholder="Enter Profession" required />
+			  </div>
+		</div>
+
+		<div class="form-control">
+			<label>Gender</label>
+			<!-- Input Type checkbox  -->
+			<label for="gender">
+				<input type="checkbox" id="gender-1" value="Male" name="gender">Male</input>
+				<input type="checkbox" id="gender-2" value="Female" name="gender">Female</input>
+				<input type="checkbox" id="gender-3" value="prefer not to say" name="gender">prefer not to say</input>
+			</label>
+		</div>
+		<div style="width: 106%;" class="form-control">
+			<label for="role" id="label-role">Country</label>
+			<select name="role" id="role">
+				<option value="India">India</option>
+				<option value="Japan">Japan</option>
+                <option value="SriLanka">SriLanka</option>
+				<option value="USA">USA</option>
+                <option value="UAE">UAE</option>
+				<option value="other">Other</option>
+			</select>
+		</div>
+		<button type="submit">Submit</button>
+        <button type="Reset" value="Reset" onclick="clr()">Reset</button>
+	</form>
+	<script src="script.js"></script>
+	
+</body>
+</html>
