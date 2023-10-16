@@ -1,0 +1,55 @@
+
+    body{
+        background-color: rgb(199, 195, 195);
+    }
+        table { 
+            border-collapse: collapse;
+            margin-left: auto; 
+            margin-right: auto; 
+            margin-top: 10%;
+           
+        } 
+        h2{
+            font:black;
+            text-align: center;
+        }
+          
+        input[type="button"] { 
+            width: 100%; 
+            padding: 20px 40px; 
+            background-color: black; 
+            color: white; 
+            font-size: 24px; 
+            font-weight: bold; 
+            border: none; 
+            
+        } 
+        #AC{
+            width: 100%; 
+            padding: 20px 40px; 
+            background-color: rgb(23, 165, 165); 
+            color: white; 
+            font-size: 24px; 
+            font-weight: bold; 
+            border: none; 
+           
+        }   
+        
+        #oprator{
+            width: 100%; 
+            padding: 20px 40px; 
+            background-color: rgb(78, 77, 77); 
+            color: white; 
+            font-size: 24px; 
+            font-weight: bold; 
+            border: none; 
+           
+        }
+        input[type="text"] { 
+            padding: 20px 30px; 
+            font-size: 24px; 
+            font-weight: bold; 
+            border: none; 
+        } 
+        
+ 
